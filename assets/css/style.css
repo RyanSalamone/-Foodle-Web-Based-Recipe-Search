@@ -5,6 +5,20 @@
   border-radius: 15px;
 }
 
+#searchBtn{
+  text-align: center;
+  border-radius: 15px;
+}
+
+#search{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.center{
+  text-align: center;
+}
+
 .jumbotron{
   background-image: url(“../../../Pasta.jpg);
   background-size: cover;
@@ -15,6 +29,7 @@
 
 }
 
+
 @keyframes jumbotron{
     0% {opacity:0;}
     50%{opacity:0;}
@@ -22,6 +37,8 @@
 }
  .findrecipe{
    text-shadow:2px 2px 2px rgb(53, 53, 53);
+   font-size: 38px;
+   text-align: center;
  }
 
  .card-content {
@@ -34,4 +51,15 @@
     0% {opacity:0;}
     50%{opacity:0;}
     100% {opacity: 1;}
+}
+.page-footer{
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.logo{
+  width:40%;
+  height: 40%;
 }
