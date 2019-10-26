@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Roboto+Condensed:700&display=swap');
 
+body {
+  background: #e4e3e3;
+}
+
 #textarea1{
   text-align: center;
   border-radius: 15px;
@@ -27,6 +31,10 @@
   -webkit-animation-name: jumbotron;
   -webkit-animation-duration: 1.5s;
 
+}
+
+.parallax-container {
+  height: 40%;
 }
 /* .wholephoto{
   background-image: url("../Pasta.jpg");
@@ -98,6 +106,7 @@
   position: fixed;
   width: 100%;
   bottom: 0;
+  z-index: 2;
 }
 
 .logo{
