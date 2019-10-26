@@ -85,16 +85,19 @@
                   <!-- Modal content -->
                   <div class="modal-content">
                      <span class="close">&times;</span>
-                     <p>Subscribe To Our Newsletter!</p><br><br>
+                     <h3 class="center">Subscribe To Our Newsletter!</h3><br><br>
                      <form action="/action_page.php">
                         <fieldset>
                            <legend>Personal information:</legend>
+                           <br>
                            First name:<br>
-                           <input type="text" name="firstname" value="John"><br>
+                           <input type="text" name="firstname" placeholder="John"><br>
                            Last name:<br>
-                           <input type="text" name="lastname" value="Smith"><br><br>
-                           <input type="text" name="email" value="example@you.com"><br><br>
-                           <input type="submit" value="Submit">
+                           <input type="text" name="lastname" placeholder="Smith"><br><br>
+                           <input type="text" name="email" placeholder="example@you.com"><br><br>
+                           <button id="modal-submit" class="btn waves-effect waves-light purple" type="submit" name="action">Submit
+                              <i class="material-icons right">send</i>
+                           </button>
                         </fieldset>
                      </form>
                   </div>

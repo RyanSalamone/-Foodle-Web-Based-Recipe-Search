@@ -102,6 +102,9 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 }
+$("#modal-submit").on('click', function (event) {
+  event.preventDefault();
+});
 
 
 $("#searchBtn").on('click', function (event) {
