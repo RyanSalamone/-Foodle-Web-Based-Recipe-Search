@@ -5,7 +5,7 @@ Ideally, the goal is to have multiples searches in the parameter and return poss
 through. Potentially adding in other search theories to help narrow down potential recipes,
 such as cuisine and cook-time and allergies, and also maybe adding a drop-down menu to search for other things such as cocktails and beverages.
 There is also a favorite button on results.
-As a home-cook/food provider, I would like to make a web application to help simplify recipes based on available ingredients,
+As a home-cook/food provider, I would like to use a web application to help simplify recipes based on available ingredients,
 so that I can save time and money and make cooking more efficient.
 API’s used,
 EDAMAM
