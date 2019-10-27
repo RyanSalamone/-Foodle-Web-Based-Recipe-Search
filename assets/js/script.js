@@ -1,5 +1,7 @@
 $(document).ready(function () {
   $('.sidenav').sidenav();
+  $('.parallax').parallax();
+  $('#newSearch').hide();
 });
 function searchFood() {
   var search = $("#search").val().trim();
@@ -110,8 +112,17 @@ $("#modal-submit").on('click', function (event) {
 $("#searchBtn").on('click', function (event) {
   event.preventDefault();
   searchFood();
+  $('.jumbotron').slideUp(1000);
+  $('#newSearch').show();
   // visible recipe info after 'click'
   $("#cardEl").visible();
   $("#img").visible();
   // creates the 'more details' link for recipe info
+});
+
+$('#newSearch').click(function() {
+  
+  $('.jumbotron').slideDown(1000);
+    $('#newSearch').hide();
+  
 });

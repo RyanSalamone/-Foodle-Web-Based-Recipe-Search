@@ -22,6 +22,7 @@
          <ul class="right hide-on-med-and-down">
             <li><a href="#">Recent Searches</a></li>
             <li><a href="#">Saved Searches</a></li>
+            <li id="newSearch"><a href="#">New Search</a></li>
          </ul>
       </div>
    </nav>
@@ -29,6 +30,7 @@
    <ul class="sidenav" id="mobile-links">
       <li><a href="#">Recent Searches</a></li>
       <li><a href="#">Saved Searches</a></li>
+      <li id="newSearch"><a href="#">New Search</a></li>
    </ul>
 
    <!-- Div for the whole image background -->
@@ -53,31 +55,35 @@
 
    <!-- Image with search area -->
    <div class="jumbotron" id="tagline">
-      <div class="container valign-wrapper">
-         <div class="row">
-            <h1 class="findrecipe white-text">Find a recipe</h1>
-            <div class="input-field col m10">
-               <form action="submit">
-                  <input id="search" class="materialize-input white" placeholder="Search"></input>
-                  <label for="textarea1"></label>
-            </div>
-            <div class="input-field col m2">
-               <button class="btn-small waves-effect waves-light purple" type="submit" name="action" id="searchBtn">
-                  <i class="material-icons center">search</i>
-               </button>
-               <br> <br> <br>
+   <!-- <div class="parallax-container">
+      <div class="parallax"><img src="assets/Pasta.jpg"></div> -->
+         <div class="container valign-wrapper">
+            <div class="row">
+               <h1 class="findrecipe white-text">Find a recipe</h1>
+               <div class="input-field col m10">
+                  <form action="submit">
+                     <input id="search" class="materialize-input white" placeholder="Search"></input>
+                     <label for="textarea1"></label>
+               </div>
+                  <div class="input-field col m2">
+                     <button class="btn-small waves-effect waves-light purple" type="submit" name="action" id="searchBtn">
+                        <i class="material-icons center">search</i>
+                     </button>
+                  </form>
+               </div>
+            <!-- </div> -->
+               <div class="col s4 offset-s4">
                   <button class="btn-small waves-effect waves-light purple center" id="myBtn">Subscribe!</button>
-               </form>
-            </div>
+               </div>
+            </div>   
          </div>
-      </div>
    </div>
 
    <!-- Cards where recipes will populate -->
    <div id="card">
       <div class="container">
          <div class="row">
-            <div class="col s12 m5 l6">
+            <div class="col s12 m6 offset-m3">
                <!-- Trigger/Open The Modal -->
 
                <!-- The Modal -->
